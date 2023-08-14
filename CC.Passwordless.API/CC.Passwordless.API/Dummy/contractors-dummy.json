@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Name": "Company A",
+    "Address": "Calle Hidalgo #123",
+    "Budget": 100000.00
+  },
+  {
+    "Id": 2,
+    "Name": "Company B",
+    "Address": "Avenida Juárez #456",
+    "Budget": 75000.00
+  },
+  {
+    "Id": 3,
+    "Name": "Company C",
+    "Address": "Calle Madero #789",
+    "Budget": 120000.00
+  },
+  {
+    "Id": 4,
+    "Name": "Company D",
+    "Address": "Calle Aldama #555",
+    "Budget": 90000.00
+  },
+  {
+    "Id": 5,
+    "Name": "Company E",
+    "Address": "Avenida Reforma #111",
+    "Budget": 150000.00
+  },
+  {
+    "Id": 6,
+    "Name": "Company F",
+    "Address": "Calle Morelos #222",
+    "Budget": 80000.00
+  },
+  {
+    "Id": 7,
+    "Name": "Company G",
+    "Address": "Calle Hidalgo #333",
+    "Budget": 110000.00
+  },
+  {
+    "Id": 8,
+    "Name": "Company H",
+    "Address": "Calle Madero #444",
+    "Budget": 95000.00
+  },
+  {
+    "Id": 9,
+    "Name": "Company I",
+    "Address": "Avenida Juárez #666",
+    "Budget": 130000.00
+  },
+  {
+    "Id": 10,
+    "Name": "Company J",
+    "Address": "Calle Morelos #777",
+    "Budget": 85000.00
+  }
+]
