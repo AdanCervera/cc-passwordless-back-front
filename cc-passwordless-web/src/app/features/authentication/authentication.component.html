@@ -1,0 +1,5 @@
+<div class="container">
+    <label>{{message}}</label>
+    <mat-progress-bar [mode]="mode"></mat-progress-bar>
+    <button mat-raised-button class="button-token" (click)="goToLogin()" *ngIf="error">Request another token</button>
+</div>
