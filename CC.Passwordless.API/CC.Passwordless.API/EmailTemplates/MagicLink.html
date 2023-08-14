@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Link para iniciar sesion en MagicLink</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #5f6368;
+        }
+
+        p {
+            color: #5f6368;
+        }
+
+        .login-link {
+            display: inline-block;
+            background-color: #4285f4;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+            .login-link:hover {
+                background-color: #3367d6;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Magic Link para iniciar sesi�n</h1>
+        <p>Hola [Email],</p>
+        <p>Hemos recibido una solicitud para iniciar sesion en MagicLink. Para acceder a tu cuenta, simplemente haz clic en el enlace a continuacion:</p>
+        <a href="http://localhost:4200/authentication?token=[Token]" class="login-link">Iniciar sesion</a>
+        <p>Si no realizaste esta solicitud, por favor ignora este correo electronico y toma las medidas necesarias para asegurar tu cuenta.</p>
+        <p>Gracias por usar MagicLink!</p>
+        <p>Atentamente,<br>El Equipo de MagicLink</p>
+    </div>
+
+</body>
+</html>
